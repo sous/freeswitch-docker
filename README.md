@@ -3,7 +3,7 @@ Dockerfile for Docker image sous/freeswitch
 
 *View the [sous/freeswitch repository](https://registry.hub.docker.com/u/sous/freeswitch/).*
 
-This Docker builds freeswitch v1.2.13 with a variety of modules
+This Dockerfile builds freeswitch from the master branch with a variety of modules
 
 UPnP and auto-nat
 -----------------
