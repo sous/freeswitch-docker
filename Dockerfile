@@ -18,6 +18,6 @@ RUN cd /usr/local/src/freeswitch; make all cd-sounds-install cd-moh-install
 RUN apt-get clean
 RUN rm -fr /usr/local/src/freeswitch
 
-VOLUME ["/opt/freeswitch/etc"]
+VOLUME ["/opt/freeswitch/conf"]
 EXPOSE 8021
 CMD ["/opt/freeswitch/bin/freeswitch","-c"]
